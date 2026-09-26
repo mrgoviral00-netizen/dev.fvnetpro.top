@@ -1,16 +1,16 @@
 #!/bin/bash
 #Script Variables
-HOST='ip';
-USER='userdb';
-PASS='password';
-DBNAME='dbname';
+HOST='174.138.191.235';
+USER='fvnetpro_deb';
+PASS='fvnetpro_deb';
+DBNAME='fvnetpro_deb';
 PORT_TCP='1194';
 PORT_UDP='110';
 PORT_SSL='443';
 OBFS='dxplusdev';
 HYSTERIA_TYPE='default';
 PORT_VLESS='442';
-API_LINK='https://yourdomain/api/authentication';
+API_LINK='https://dev.fvnetpro.top/api/authentication';
 API_KEY='Dxplusdev';
 DOMAIN=oiz1.angeltunnel.com
 NS=lqrs.angeltunnel.com
@@ -20,7 +20,7 @@ timedatectl set-timezone Asia/My mensingh
 
 #====================================================
 # Install Sudo & User
-#	Bangladesh: Dxplusdev Developer
+#	Bangladesh: freenetgang Developer
 #====================================================
 install_sudo(){
 # Create user if not exists
