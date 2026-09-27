@@ -1,0 +1,12 @@
+#!/bin/bash
+#Script Variables
+HOST='174.138.191.235';
+USER='fvnetpro_deb';
+PASS='fvnetpro_deb';
+DBNAME='fvnetpro_deb';
+PORT_TCP='1194';
+PORT_UDP='53';
+PORT_SSL='443';
+OBFS='dxplusdev';
+HYSTERIA_TYPE='default';
+404: Not Found
